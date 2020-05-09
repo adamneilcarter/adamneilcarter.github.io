@@ -10,9 +10,9 @@ body{
   text-align: left;
   padding: 10px;
 	margin: 30px;
-  color: #B7B7B7;
+
 }
-ul {
+.menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -43,13 +43,4 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #4CAF50;
-}
-.menu {
-  text-align: center;
-  font-family: arial;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: inline;
-    
 }
