@@ -12,3 +12,14 @@ body{
 	margin: 30px;
   color: #3D4849;
 }
+.menu {
+  text-align: center;
+  font-family: arial;
+  color: rgb(0, 102, 255);
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  
+  
+}
