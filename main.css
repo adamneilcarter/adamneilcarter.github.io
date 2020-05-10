@@ -15,20 +15,36 @@ body{
 
 
 .menu ul {
-  
+  font-size: large;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #808080;
+  background: #395870;
+  background: linear-gradient(#48708f, #293f50);
+  
+  
+
+}
+
+.menu a {
+  
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
 }
 
 
 li {
   float: left;
+  border-right: 1px solid #fff;
 }
 .menu li a {
   display: block;
   padding: 8px;
 }
 
+
+.active {
+  background-color: #4CAF50;
+}
