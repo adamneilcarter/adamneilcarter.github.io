@@ -44,6 +44,15 @@ li {
   padding: 8px;
 }
 
+.menu li:last-child {
+  border-right: none;
+  
+  }
+.menu ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
 .active {
   background-color: #4CAF50;
