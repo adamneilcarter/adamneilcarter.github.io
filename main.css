@@ -21,7 +21,10 @@ body{
 }
 
 .menu a {
+  border-right: 1px rgb(0,0,0,.3)
+  color: #fff;
   background: #395870
+  padding: 12px 20px;
   
   }
 
