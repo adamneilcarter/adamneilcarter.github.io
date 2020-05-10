@@ -48,8 +48,10 @@ li {
   border-right: none;
   
   }
+  
 .menu ul {
-  position: fixed;
+  position: -webkit-sticky;
+  poition: sticky;
   top: 0;
   width: 100%;
 }
