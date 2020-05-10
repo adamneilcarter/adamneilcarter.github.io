@@ -21,10 +21,19 @@ body{
 }
 
 .menu a {
-  border-right: 1px rgb(0,0,0,.3)
+  border-right: 1px rgb(0,0,0,.3);
   color: #fff;
-  background: #395870
+  background: #395870;
   padding: 12px 20px;
   
+  }
+  
+.menu li:first-child a {
+  border-radius: 0 4px 4px 0;
+  }
+  
+.menu li:last-child a {
+  border-right: 0;
+  border-radius: 0 4px 4px 0;
   }
 
