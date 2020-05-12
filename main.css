@@ -75,6 +75,7 @@ li {
 .background-text {
   /* background: #b7b7b7; */
   background: rgba(216, 216, 216, 0.7);
+  padding: 30px;
   a {
     text-decoration: none;
     color: #b7b7b7;
