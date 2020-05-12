@@ -2,7 +2,7 @@ body{
   height: 100%;
   margin: 0;
   text-align: center;
-  font-family: arial;
+  font-family: 'Roboto', sans-serif;
   width: 100%;
   background: #b7b7b7;
 }
@@ -22,13 +22,13 @@ body{
   overflow: hidden;
   background: #395870;
   background: linear-gradient(#48708f, #293f50);
-  
-  
+
+
 
 }
 
 .menu a {
-  
+
   color: #fff;
   padding: 12px 20px;
   text-decoration: none;
@@ -46,9 +46,9 @@ li {
 
 li:last-child {
   border-right: none;
-  
+
   }
-  
+
 .menu ul {
   position: -webkit-sticky; /* Safari */
   poition: sticky;
