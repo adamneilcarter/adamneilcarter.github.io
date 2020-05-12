@@ -46,8 +46,8 @@ li {
 
 li:last-child {
   border-right: none;
+}
 
-  }
 
 .menu ul {
   position: -webkit-sticky; /* Safari */
