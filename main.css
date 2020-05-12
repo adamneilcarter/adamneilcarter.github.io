@@ -1,4 +1,6 @@
-
+html{
+background: #b7b7b7;
+}
 
 body{
 
@@ -7,7 +9,7 @@ body{
   margin: 0;
   text-align: center;
   width: 100%;
-  background: #b7b7b7;
+
 }
 .hero {
   text-align: left;
@@ -69,8 +71,21 @@ li {
   align-items: center;
   justify-content: center;
 
+  }
+.background-text {
+  /* background: #b7b7b7; */
+  background: rgba(216, 216, 216, 0.7);
+  a {
+    text-decoration: none;
+    color: #b7b7b7;
 }
 
+}
+.welcome{
+  font-size: 1.5em;
+  padding; 1.5em;
+  border-radius: 10px;
+}
 
 .active {
   background-color: #4CAF50;
