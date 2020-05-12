@@ -41,7 +41,7 @@ body{
 li {
   float: left;
   border-right: 1px solid #fff;
-  border-radius: 0 4px 0 0;
+  border-radius: 0 10px 0 0;
 }
 .menu li a {
   display: block;
@@ -54,6 +54,8 @@ li {
   top: 0;
   width: 100%;
 }
+
+
 
 .active {
   background-color: #4CAF50;
