@@ -29,6 +29,9 @@ body{
   background: linear-gradient(#48708f, #293f50);
 
 }
+.centred_image {
+  text-align: center;
+}
 
 header {
   display: flex;
