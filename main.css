@@ -102,3 +102,6 @@ li {
   width: 30px;
   float: left;
 }
+.row {
+  clear: both;
+}
