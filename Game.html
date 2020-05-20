@@ -25,35 +25,28 @@
     </nav>
   </header>
 
-Click here to play Noughts and Crosses?<br/>
- 
- 
-<div onclick="alert('Player X');">
- Click here to find out if you are Player X or Player O.
-</div>
-  
-  <div>
-    <div class="row">
-      <div onclick="place(this)"></div>
-      <div onclick="place(this)"></div>
-      <div onclick="place(this)"></div>
+Click to play Noughts and Crosses.<br/>
+    <div>
+        <div class="row">
+            <div onclick="place(this)"></div>
+            <div onclick="place(this)"></div>
+            <div onclick="place(this)"></div>
+        </div>
+        <div class="row">
+            <div onclick="place(this)"></div>
+            <div onclick="place(this)"></div>
+            <div onclick="place(this)"></div>
+        </div>
+        <div class="row">
+            <div onclick="place(this)"></div>
+            <div onclick="place(this)"></div>
+            <div onclick="place(this)"></div>
+        </div>
     </div>
-    <div class="row">
-      <div onclick="place(this)"></div>
-      <div onclick="place(this)"></div>
-      <div onclick="place(this)"></div>
-    </div>
-    <div class="row">
-      <div onclick="place(this)"></div>
-      <div onclick="place(this)"></div>
-      <div onclick="place(this)"></div>
-    </div>
-  </div>
-  
-  
-<script>
+    <script>
         var currentPlayer = "O";
         function place(box) {
+            if(box.innerText != "") return;
             box.innerText = currentPlayer;
             if(currentPlayer == "O") {
                 currentPlayer = "X";
@@ -63,6 +56,8 @@ Click here to play Noughts and Crosses?<br/>
             }
         }
     </script>
+    
+    
     
 </body>
 
