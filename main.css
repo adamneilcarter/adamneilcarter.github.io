@@ -44,7 +44,7 @@ li {
 
 .topnav li a:hover {
   background-color: #f1f1f1;
-  color: white;
+  color: blue;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
