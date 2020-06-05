@@ -4,7 +4,7 @@ header {
   padding: 10px;
   border-style: solid;
   border-radius: 10px 10px 10px 10px;
-  background-color: #c6c6c6;
+  background-color: #f1f1f1;
   text-align: center;
 }
 
@@ -25,7 +25,7 @@ body {
   padding: 10px;
   border-style: solid;
   border-radius: 10px 10px 10px 10px;
-  background-color: #c6c6c6;
+  background-color: #f1f1f1;
   overflow: hidden;
 }
 
@@ -43,12 +43,12 @@ li {
 
 
 .topnav li a:hover {
-  background-color: #c6c6c6;
+  background-color: #f1f1f1;
   color: white;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: #c6c6c6;
+  background-color: #f1f1f1;
 }
 
 li.dropdown {
@@ -58,7 +58,7 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #c6c6c6;
+  background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -71,7 +71,7 @@ li.dropdown {
   display: block;
   text-align: left;
 }
-.dropdown-content a:hover {background-color: #c6c6c6;}
+.dropdown-content a:hover {background-color: #f1f1f1;}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -80,21 +80,7 @@ li.dropdown {
 
 /* setting out cards */
 
-.leftcolumn {
-  float: left;
-  width: 15%;
-  background-color: #f1f1f1;
-  padding: 20px;
-  margin: 0;
-  padding: 10px;
-}
-  .rightcolumn {
-    float: left;
-    width: 80%;
-    background-color: #f1f1f1;
-    padding: 10px;
-    margin: 0;
-  }
+
   .card {
     background-color: white;
     padding: 20px;
