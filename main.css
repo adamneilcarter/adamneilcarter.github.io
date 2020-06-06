@@ -5,7 +5,8 @@ header {
   border-style: solid;
   border-radius: 10px 10px 10px 10px;
   background-color: white;
-  text-align: center;  
+  text-align: center;
+  animation: myani  5S  infinite;
 }
 
 body {
@@ -125,4 +126,10 @@ ol li::before {
   height: 20px;
   text-align: center;
   line-height: 19px;
+}
+
+  @keyframes myani {
+  0% {background-color: white; color: black;}
+  50% {background-color: blue; color: white;}
+  100% {background-color: white; color: black;}
 }
