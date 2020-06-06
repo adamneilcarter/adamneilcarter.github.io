@@ -113,7 +113,7 @@ li.dropdown {
   counter-reset: my-sec-counter;
 
 }
-ol li:before {
+ol li::before {
   counter-increment: my-sec-counter;
   content: counter(my-sec-counter);
   position: absolute;
