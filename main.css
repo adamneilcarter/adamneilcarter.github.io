@@ -6,10 +6,12 @@ header {
   border-radius: 10px 10px 10px 10px;
   background-color: white;
   text-align: center;
+  animation: myani  5S  infinite;
 }
 
 body {
-  background-color: white;
+  background: white;
+
   font-family: Roboto;
   padding: 10px;
   background: #f1f1f1;
@@ -37,10 +39,10 @@ body {
   text-decoration: none;
   font-weight: bold;
 }
-li {
+
+.topnav li {
   float: left;
 }
-
 
 .topnav li a:hover {
   background-color: #f1f1f1;
@@ -100,4 +102,34 @@ li.dropdown {
     margin: 0 auto;
   }
 
+}
+
+  /* making a new counter number before and styling that number */
+.list ol {
+    list-style: none;
+}
+
+.list ol{
+  counter-reset: my-sec-counter;
+
+}
+ol li:before {
+  counter-increment: my-sec-counter;
+  content: counter(my-sec-counter);
+  position: absolute;
+  border-radius: 50%;
+  font-size: 15px;
+  left: 45px;
+  background: #f3b70f;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 19px;
+}
+
+@keyframes myani {
+  0% {background-color: white; color: black;}
+  50% {background-color: blue; color: white;}
+  100% {background-color: white; color: black;}
 }
